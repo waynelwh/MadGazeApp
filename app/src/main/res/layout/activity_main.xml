@@ -9,8 +9,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="polyu.comp.wayne.madgazeapp.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <ImageButton
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/startButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:gravity="center"
+        android:src="@drawable/ic_camera"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpButton"
+        android:layout_below="@+id/startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:gravity="center"
+        android:src="@drawable/ic_help"/>
 </RelativeLayout>
